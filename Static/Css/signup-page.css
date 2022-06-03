@@ -1,0 +1,27 @@
+@media screen and (min-width: 320px) and (max-width: 496px) {
+  body {
+    display: grid;
+    grid-template: repeat(12, 1fr)/repeat(12, 1fr);
+    min-height: 100vh;
+    font-size: 16px;
+  }
+  body header {
+    grid-area: 1/1/4/13;
+    background: url(../Image/signup.jpg) center no-repeat;
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 70% 100%, 0 100%, 0 0);
+  }
+  body::after {
+    content: "";
+    grid-area: 1/1/4/13;
+    background: rgba(0, 0, 0, 0.55);
+    clip-path: polygon(0 0, 100% 0, 100% 60%, 70% 100%, 0 100%, 0 0);
+  }
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=signup-page.css.map */

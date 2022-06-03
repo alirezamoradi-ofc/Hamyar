@@ -1,0 +1,14 @@
+{
+  "name": "hamyar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "signup:sass": "sass ./Static/Sass/Signup-Page/signup-page.scss  ./Static/Css/signup-page.css"
+  },
+  "author": "Alireza Moradi",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.52.1"
+  }
+}
